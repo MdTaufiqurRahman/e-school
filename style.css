@@ -5,16 +5,25 @@ body{
     width: 200px;
 }
 .highlight{
-    color:rgb(13, 201, 13);
+    color:#2E8B57;
+}
+#change-color{
+    color: goldenrod;
+}
+#color-change{
+    color:#2E8B57;
 }
 .btn{
     color: white;
-    background-color: rgb(13, 201, 13);
+    background-color: #2E8B57;
     border-radius: 40px;
     padding: 10px 30px;
 }
 h1{
-    font-size: 50px;
+    font-size: 51px;
+}
+h2{
+    font-size: 40px;
 }
 .car-img{
     width:100%
@@ -50,8 +59,37 @@ h2{
 .card{
     box-shadow: 5px 5px 10px darkgray;
     border-radius: 10px;
+    margin-top: 50px;
 }
 .card img{
     padding: 15px 15px;
     border-radius: 10px;
+}
+.card-text img{
+    text-align: left;
+    width: 50px;
+    height: 50px;
+}
+.icon-man{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 70px;
+}
+.man-part{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.man-p{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#color{
+    margin-top: 20px;
+    color: white;
+    background-color:#2F4F4F;
+    padding: 50px 30px;
+}
+footer{
+    margin-top: 60px;
 }
