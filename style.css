@@ -21,5 +21,37 @@ h1{
 }
 .carousel-item{
     padding: 10px 20px;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.col img{
+    text-align: center;
+    width: 100%;
+    padding: 80px 82px;
+    margin-top: 550px;
+    height: 260px;
+}
+h4{
+    text-align: center;
+    color: rgb(3, 3, 58);
+}
+h6{
+    text-align: center;
+    color: rgb(3, 3, 58);
+}
+h2{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(3, 3, 58);
+}
+.card-title{
+    text-align: start;
+}
+.card{
+    box-shadow: 5px 5px 10px darkgray;
+    border-radius: 10px;
+}
+.card img{
+    padding: 15px 15px;
+    border-radius: 10px;
 }
