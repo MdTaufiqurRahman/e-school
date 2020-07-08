@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.icon{
+    width: 200px;
+}
+.highlight{
+    color:rgb(13, 201, 13);
+}
+.btn{
+    color: white;
+    background-color: rgb(13, 201, 13);
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+h1{
+    font-size: 50px;
+}
+.car-img{
+    width:100%
+}
+.carousel-item{
+    padding: 10px 20px;
+    margin-top: 30px;
+}
