@@ -1,6 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+header{
+    background-color:#F0FFF0;
+    height: 630px;
+}
 .icon{
     width: 200px;
 }
@@ -22,24 +26,7 @@ body{
 h1{
     font-size: 51px;
 }
-h2{
-    font-size: 40px;
-}
-.car-img{
-    width:100%
-}
-.carousel-item{
-    padding: 10px 20px;
-    margin-top: 50px;
-}
 
-.col img{
-    text-align: center;
-    width: 100%;
-    padding: 80px 82px;
-    margin-top: 550px;
-    height: 260px;
-}
 h4{
     text-align: center;
     color: rgb(3, 3, 58);
@@ -49,25 +36,45 @@ h6{
     color: rgb(3, 3, 58);
 }
 h2{
+    font-size: 40px;
     text-align: center;
     margin-top: 70px;
     color: rgb(3, 3, 58);
-}
 
-#another-card{
-    margin-top: 550px;
-    border: none;
+}
+.carousel-img{
+    margin-top: 50px;
+    width: 100%;
+    height: 420px;
+}
+/*topic part*/
+
+.card-first{
+    margin-top: 50px;
     text-align: center;
+    border: none;
     box-shadow: none;
     background-color: rgb(253, 251, 247);
+    border-radius: 10px;
+}
 
-   
+
+.topic img{
+        width: 100%;
+        padding: 80px 82px;
+        height: 250px;
+    }
+    
+
+.card-first:hover{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px darkgray;
+    background-color: white;
 }
-#another-card img{
-    width:180px;
-    height: 130px;
-    padding-left: 80px;
-}
+
+/*online course card part */
+
 .card-title{
     text-align: start;
 }
@@ -86,6 +93,9 @@ h2{
     width: 50px;
     height: 50px;
 }
+
+/*testimonial part */
+
 .icon-man{
     width: 130px;
     height: 130px;
@@ -100,20 +110,21 @@ h2{
     margin-left: 30px;
     margin-top: 20px;
 }
+
+footer{
+    background-color:rgb(40, 37, 49) ;
+
+}
 #color{
     margin-top: 20px;
     color: white;
-    background-color:rgb(40, 37, 49);
     padding: 50px 30px;
-}
-footer{
-    margin-top: 60px;
 }
 .high-light{
     color: yellow;
 }
 #another-card:hover{
-    box-shadow: 5px 5px 10px darkgray;
+    box-shadow: 5px 5px 10px #F0FFF0;;
     background-color: white;
    
 }  
@@ -127,21 +138,27 @@ footer{
 .card:hover{
     background-color: rgb(238, 235, 228);
 }
-
-@media (max-width:1000px){
-    #another-card{
-        margin-top: 700px;
-        border: none;
-        width: 105px;
-        height: 320px;
-        text-align: center;
-        box-shadow: none;
-        background-color: rgb(253, 251, 247);
-        float: left;       
-    }
-    #another-card img{
-        width:90px;
-        height: 100px;
-        padding-left: 25px;
+.text-center{
+    margin-top: 60px;
 }
+
+/*media query */
+@media (max-width:900px){
+
+    .topic img{
+        width: 280px;
+        height: 280px;
+    }
+    .card-first{
+        margin-top:10px;
+        background-color: #F0FFF0;
+        border-radius: 10px;
+    }
+    .carousel-img{ 
+        width: 100%;
+        height: 250px;
+        margin-top: -10px;
+     
+    }
+
 }
