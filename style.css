@@ -73,9 +73,10 @@ h2{
     text-align: start;
 }
 .card{
-    box-shadow: 5px 5px 10px darkgray;
+    box-shadow: 7px 7px 12px darkgray;
     border-radius: 10px;
     margin-top: 50px;
+    border: none;
 }
 .card img{
     padding: 15px 15px;
@@ -103,7 +104,7 @@ h2{
 #color{
     margin-top: 20px;
     color: white;
-    background-color:#2F4F4F;
+    background-color:rgb(40, 37, 49);
     padding: 50px 30px;
 }
 footer{
