@@ -109,6 +109,9 @@ h2{
 footer{
     margin-top: 60px;
 }
+.high-light{
+    color: yellow;
+}
 #another-card:hover{
     box-shadow: 5px 5px 10px darkgray;
     background-color: white;
