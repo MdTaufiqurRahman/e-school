@@ -49,7 +49,7 @@ h2{
 }
 /*topic part*/
 
-.card-first{
+.cards-first{
     margin-top: 50px;
     text-align: center;
     border: none;
@@ -63,14 +63,18 @@ h2{
         width: 100%;
         padding: 80px 82px;
         height: 250px;
+        margin-top:-60px;
     }
     
 
-.card-first:hover{
+.cards-first:hover{
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 10px darkgray;
     background-color: white;
+}
+.cards-body{
+    height: 80px;
 }
 
 /*online course card part */
@@ -146,18 +150,18 @@ footer{
 @media (max-width:900px){
 
     .topic img{
-        width: 230px;
-        height: 240px;
+        width: 210px;
+        height: 230px;
     }
     .card-first{
-        margin-top:60px;
+        margin-top:80px;
         background-color: #F0FFF0;
         border-radius: 10px;
     }
     .carousel-img{ 
         width: 100%;
         height: 250px;
-        margin-top: -100px;
+        margin-top: -10px;
      
     }
 
