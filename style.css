@@ -53,6 +53,22 @@ h2{
     margin-top: 70px;
     color: rgb(3, 3, 58);
 }
+
+#another-card{
+    margin-top: 550px;
+    border: none;
+    text-align: center;
+    box-shadow: none;
+    background-color: rgb(253, 251, 247);
+
+   
+}
+#another-card img{
+    width:180px;
+    height: 130px;
+    image-orientation: flip;
+    padding-left: 80px;
+}
 .card-title{
     text-align: start;
 }
@@ -71,8 +87,8 @@ h2{
     height: 50px;
 }
 .icon-man{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     margin-bottom: 70px;
 }
 .man-part{
@@ -93,7 +109,18 @@ h2{
 footer{
     margin-top: 60px;
 }
-.iconn img{
-    height: 200px;
-    width: 200px;
+#another-card:hover{
+    box-shadow: 5px 5px 10px darkgray;
+    background-color: white;
+   
+}  
+.btn:hover{
+    color: white;
+    background-color:rgb(206, 79, 21);
+    border-radius: 40px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 5px rgb(233, 233, 25);
+}
+.card:hover{
+    background-color: rgb(238, 235, 228);
 }
